@@ -1,6 +1,5 @@
 # policyholders
 
-## npm i && npm run dev
 
 ## api
 
@@ -13,3 +12,8 @@
 - 格式：{baseUrl}/api/policyholders/{code}/top
 
 [說明] code 可以帶入資料任意 code
+
+## 安裝專案及啟動
+```
+npm i && npm run dev
+```
