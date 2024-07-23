@@ -160,6 +160,6 @@ export const getSinglePolicyholder = tryCatchWrapper(async function (req, res, n
 
     // 使用buildTree後，使用buildTopHierarchy查找特定保户的上層
 const treeRoot = await buildTree(clients, "P001"); // 以P001是root node
-const topHierarchy = await getParentHierarchy(treeRoot, policyholderCode); // 查找P021的上层层级关系
+const topHierarchy = await getParentHierarchy(treeRoot, policyholderCode); 
     return res.status(200).json(topHierarchy);
   });
